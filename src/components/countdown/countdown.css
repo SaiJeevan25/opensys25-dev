@@ -147,8 +147,7 @@
 
 @media only screen and (max-width: 435px) {
     .countdown {
-        gap: 6px;
-        flex-wrap: wrap;
+        gap: 5px;
     }
 
     .time-segment {
