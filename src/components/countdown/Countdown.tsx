@@ -42,7 +42,7 @@ const Countdown: React.FC = () => {
 
   return (
     <div className="flex flex-col gap-10 items-center mb-10">
-        <h1 className="text-2xl md:text-4xl lg:text-5xl">Countdown: </h1>
+        <h1 className="text-xl md:text-2xll">Registration Opens in: </h1>
         <div className="countdown">
         {Object.entries(timeLeft).map(([label, value]) => (
             <div key={label} className="time-section">
