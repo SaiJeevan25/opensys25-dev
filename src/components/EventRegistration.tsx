@@ -195,7 +195,7 @@ const EventRegistration = () => {
         <div className="container mx-auto px-4 relative z-10">
           <div className="max-w-4xl mx-auto text-center text-white">
             <div className="animate-fade-up">
-              <div className="flex items-center">
+              <div className="flex items-center justify-center">
                 <span className="">
                   <Countdown />
                 </span>
