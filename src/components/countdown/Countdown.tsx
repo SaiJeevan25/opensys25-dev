@@ -41,7 +41,7 @@ const Countdown: React.FC = () => {
   }, [targetDate]);
 
   return (
-    <div className="flex flex-col gap-10 items-center mb-10">
+    <div className="flex flex-col gap-5 items-center mb-5">
         <h1 className="text-xl md:text-2xll">Registration Opens in: </h1>
         <div className="countdown">
         {Object.entries(timeLeft).map(([label, value]) => (
